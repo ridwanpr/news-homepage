@@ -16,7 +16,7 @@ function closeHamburgerMenu() {
 
 function updateFeaturedImage() {
   const windowWidth = window.innerWidth;
-  if (windowWidth >= 1024) {
+  if (windowWidth >= 768) {
     featuredImg.setAttribute("src", "assets/images/image-web-3-desktop.jpg");
   } else {
     featuredImg.setAttribute("src", "assets/images/image-web-3-mobile.jpg");
@@ -27,4 +27,4 @@ function updateFeaturedImage() {
 window.addEventListener("resize", updateFeaturedImage);
 hamburgerIcon.addEventListener("click", openHamburgerMenu);
 closeMenu.addEventListener("click", closeHamburgerMenu);
-updateImage();
+updateFeaturedImage();
