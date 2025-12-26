@@ -220,13 +220,11 @@ main {
 
 @media (min-width: 1024px) {
     .posts {
+        margin-top: 2rem;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-column: 1/4;
     }
-
-    
-
 }
 
 .post {
