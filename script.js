@@ -16,7 +16,7 @@ function closeHamburgerMenu() {
 
 function updateFeaturedImage() {
   const windowWidth = window.innerWidth;
-  if (windowWidth >= 768) {
+  if (windowWidth >= 1024) {
     featuredImg.setAttribute("src", "assets/images/image-web-3-desktop.jpg");
   } else {
     featuredImg.setAttribute("src", "assets/images/image-web-3-mobile.jpg");
